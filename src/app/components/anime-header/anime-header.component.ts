@@ -6,7 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./anime-header.component.scss']
 })
 export class AnimeHeaderComponent {
-  click() {
-    console.log('click');
+  theme = 'light';
+  toggleTheme() {
+    if (this.theme === 'light') {
+      this.theme = 'dark';
+    } else {
+      this.theme = 'light';
+    }
   }
 }

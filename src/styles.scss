@@ -2,3 +2,12 @@
 body {
     margin: 0px;
 }
+.light {
+    --primary-color: #2196f3;
+    --background-color: #fff;
+  }
+  
+  .dark{
+    --primary-color: #90caf9;
+    --background-color: #424242;
+  }
